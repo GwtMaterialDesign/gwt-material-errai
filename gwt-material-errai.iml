@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="gwt" name="GWT">
+      <configuration>
+        <setting name="additionalCompilerParameters" value="-XX:CompileThreshold=7000 -XX:MaxPermSize=128M -Derrai.jboss.home=C:\Users\Mark Kevin\Documents\errai\gwt-material-errai\target/wildfly-8.1.0.Final -Derrai.dev.context=gwt-material-errai -Derrai.jboss.javaagent.path=${settings.localRepository}/org/jboss/errai/errai-client-local-class-hider/4.0.0.Beta1/errai-client-local-class-hider-4.0.0.Beta1.jar" />
+        <setting name="compilerParameters" value="-XdisableCastChecking" />
+        <setting name="compilerMaxHeapSize" value="712" />
+        <setting name="gwtSdkUrl" value="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.8.0-beta1/" />
+        <setting name="gwtSdkType" value="maven" />
+        <setting name="webFacet" value="Web" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.github.gwtmaterialdesign:gwt-material:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.gwtmaterialdesign:gwt-material-themes:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.gwtmaterialdesign:gwt-material-addins:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-tools:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.hsqldb:hsqldb:2.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.gwt:gwt-user:2.8.0-beta1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.validation:validation-api:sources:1.0.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-cdi-jboss:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-client-local-class-hider:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-cli:8.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.aesh:aesh:0.65.1" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.jansi:jansi:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:staxmapper:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-controller-client:8.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-protocol:8.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jboss-dmr:1.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.threads:jboss-threads:2.1.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-security-manager:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.1.4.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.sasl:jboss-sasl:1.0.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.remoting:jboss-remoting:4.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.xnio:xnio-api:3.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.remotingjmx:remoting-jmx:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling:1.4.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.4.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.xnio:xnio-nio:3.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jboss-vfs:3.0.1.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.picketbox:picketbox:4.0.20.Final" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: sun.jdk:jconsole:jdk">
+        <CLASSES>
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_77/lib/jconsole.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-embedded:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-server:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-controller:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-core-security:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-core-security-api:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-domain-http-interface:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-domain-management:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jboss-common-core:2.2.17.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-deployment-repository:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-patching:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-platform-mbean:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-process-controller:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-remoting:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-io:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-network:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-version:8.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.invocation:jboss-invocation:1.2.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logmanager:jboss-logmanager:1.5.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.msc:jboss-msc:1.2.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.stdio:jboss-stdio:1.0.2.GA" level="project" />
+    <orderEntry type="library" name="Maven: io.undertow:undertow-core:1.1.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jandex:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.modules:jboss-modules:1.3.3.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly:wildfly-build-config:8.1.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-jboss-as-support:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-common:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai.reflections:reflections:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: de.benediktmeurer.gwt-slf4j:gwt-slf4j:0.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-bus:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-config:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-marshalling:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:3.0" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.19.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0.0.jbossorg-1" level="project" />
+    <orderEntry type="library" name="Maven: org.jgroups:jgroups:3.2.13.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-ioc:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-codegen:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-codegen-gwt:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava-gwt:19.0.0.jbossorg-1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-javax-enterprise:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: javax.enterprise:cdi-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.el:javax.el-api:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.interceptor:javax.interceptor-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-cdi-client:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-ioc-bus-support:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-cdi-shared:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-cdi-server:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-ui:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.12" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.stanbol:org.apache.stanbol.enhancer.engines.htmlextractor:0.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.clerezza:rdf.core:0.12-incubating" level="project" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.core:4.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.compendium:4.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.clerezza:utils:0.1-incubating" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.wymiwyg:wymiwyg-commons-core:0.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.lesscss:lesscss:1.3.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.mozilla:rhino:1.7R4" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-data-binding:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-navigation:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-jaxrs-client:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:jaxrs-api:2.3.10.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-jaxrs-provider:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-jpa-client:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-entitymanager:4.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-jpa-datasync:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-security-server:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.deltaspike.core:deltaspike-core-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-cdi:2.3.10.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-jaxrs:2.3.10.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.scannotation:scannotation:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.3.6" level="project" />
+    <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-security-client:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: javax.el:el-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:1.0.0.Alpha3" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.el:jboss-el-api_2.2_spec:1.0.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_1.1_spec:1.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.errai:errai-security-picketlink:4.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.picketlink:picketlink-api:2.6.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.picketlink:picketlink-idm-api:2.6.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.picketlink:picketlink-impl:2.6.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.picketlink:picketlink-common:2.6.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.picketlink:picketlink-idm-impl:2.6.0.Final" level="project" />
+  </component>
+</module>
