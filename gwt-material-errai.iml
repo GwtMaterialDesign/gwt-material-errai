@@ -17,7 +17,7 @@
     </facet>
     <facet type="gwt" name="GWT">
       <configuration>
-        <setting name="additionalCompilerParameters" value="-XX:CompileThreshold=7000 -XX:MaxPermSize=128M -Derrai.jboss.home=C:\Users\Mark Kevin\Documents\errai\gwt-material-errai\target/wildfly-8.1.0.Final -Derrai.dev.context=gwt-material-errai -Derrai.jboss.javaagent.path=${settings.localRepository}/org/jboss/errai/errai-client-local-class-hider/4.0.0.Beta1/errai-client-local-class-hider-4.0.0.Beta1.jar" />
+        <setting name="additionalCompilerParameters" value="-XX:CompileThreshold=7000 -XX:MaxPermSize=128M -Derrai.jboss.home=C:\Users\Mark Kevin\Documents\git\gwt-material-errai\target/wildfly-8.1.0.Final -Derrai.dev.context=gwt-material-errai -Derrai.jboss.javaagent.path=${settings.localRepository}/org/jboss/errai/errai-client-local-class-hider/4.0.0.Beta1/errai-client-local-class-hider-4.0.0.Beta1.jar" />
         <setting name="compilerParameters" value="-XdisableCastChecking" />
         <setting name="compilerMaxHeapSize" value="712" />
         <setting name="gwtSdkUrl" value="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.8.0-beta1/" />

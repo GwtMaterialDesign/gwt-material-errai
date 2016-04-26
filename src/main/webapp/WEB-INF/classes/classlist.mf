@@ -1,1 +1,3 @@
-gwt.material.errai.client.local.App
+gwt.material.errai.client.local.CollectionCard
+gwt.material.errai.client.local.Main
+gwt.material.errai.client.local.HomePage

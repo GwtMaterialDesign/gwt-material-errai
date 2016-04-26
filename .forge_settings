@@ -3,4 +3,4 @@ ERRAI_FORGE_MODULE_LOGICAL = gwt.material.errai.App
 ERRAI_FORGE_MODULE_FILE = C:\\Users\\Mark Kevin\\Documents\\errai\\gwt-material-errai\\src\\main\\java\\gwt\\material\\errai\\App.gwt.xml
 ERRAI_FORGE_MODULE_NAME = app
 ERRAI_FORGE_CORE_IS_INSTALLED = true
-ERRAI_FORGE_INSTALLED_FEATURES = data-binding,jaxrs,navigation,ui,errai-security,cdi,jpa-client,ioc,jpa-datasync,messaging
+ERRAI_FORGE_INSTALLED_FEATURES = data-binding,jaxrs,navigation,ui,errai-security,cdi,jpa-client,ioc,jpa-datasync
