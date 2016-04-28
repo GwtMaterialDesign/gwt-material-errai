@@ -1,6 +1,32 @@
 <!DOCTYPE html>
-<div data-field="root" id="root">
-    Test
-    <div data-field="content"/>
-    <a data-field="itemLink">Link to Home</a>
+
+<div data-field="root" id="root" class="row">
+    <style>
+        body{
+            background: #e9e9e9;
+        }
+        .header{
+            padding: 20px;
+            color: white;
+            font-size: 3em;
+            text-align: center;
+        }
+        .login-field{
+            padding: 0 !important;
+        }
+    </style>
+    <div class="login-field white card col s12 l4 m6 offset-l4 offset-m3" style="margin-top: 10%;" >
+        <div class="blue header">
+            <span>GMD Errai</span>
+        </div>
+        <div class="card-content">
+            <input data-field="username" />
+            <input data-field="password" />
+            <input data-field="remember-me" />
+        </div>
+        <div class="card-action right">
+            <button data-field="signup" />
+            <button data-field="login" />
+        </div>
+    </div>
 </div>

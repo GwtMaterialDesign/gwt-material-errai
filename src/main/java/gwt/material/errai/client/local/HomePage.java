@@ -37,9 +37,4 @@ public class HomePage extends Composite {
         panel.add(sideNav);
         panel.add(main);
     }
-
-    @PreDestroy
-    public void destroy() {
-        MaterialToast.fireToast("Destriyed");
-    }
 }

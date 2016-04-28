@@ -1,11 +1,5 @@
 package gwt.material.errai.shared;
 
-import org.jboss.errai.databinding.client.api.Bindable;
-
-import javax.persistence.Entity;
-
-@Bindable
-@Entity
 public class UserDTO {
 
     private long id;

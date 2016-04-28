@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<div data-field="root" id="root" class="row">
+    <style>
+        body{
+            background: #e9e9e9;
+        }
+        .header{
+            color: white;
+            text-align: center;
+            padding-top: 15% !important;
+            height: 100%;
+        }
+        .signup-field{
+            margin-top: 5%;
+            height: 380px;
+            padding: 0 !important;
+        }
+    </style>
+    <div class="signup-field white card col s12 l6 m8 offset-l3 offset-m2" >
+        <div class="blue header col s4">
+            <span style="font-size: 2em;">Sign up</span>
+            <p>Create now your account</p>
+            <i class="material-icons large">security</i>
+        </div>
+        <div class="card-content col s8">
+            <div class="row">
+                <input data-field="firstname" />
+                <input data-field="lastname" />
+            </div>
+            <div class="row">
+                <input data-field="username" />
+                <input data-field="email" />
+                <input data-field="password" />
+                <input data-field="re-password" />
+            </div>
+        </div>
+        <div class="row right" style="margin-right: 28px;">
+            <button data-field="login" />
+            <button data-field="signup" />
+        </div>
+    </div>
+</div>
