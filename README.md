@@ -1,3 +1,4 @@
+<img src="http://i.imgur.com/t1iXjM1.png" />
 # gwt-material-errai
 Basic Errai application integrated with GMD
 
