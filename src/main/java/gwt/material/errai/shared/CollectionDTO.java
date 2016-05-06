@@ -1,5 +1,13 @@
 package gwt.material.errai.shared;
 
+import org.jboss.errai.databinding.client.api.Bindable;
+
+import javax.persistence.Entity;
+import javax.persistence.NamedQuery;
+
+@Bindable
+@Entity
+@NamedQuery(name = "allUsers", query = "SELECT s FROM CollectionDTO s ORDER BY s.name")
 public class CollectionDTO {
 
     private String name;
@@ -7,16 +15,14 @@ public class CollectionDTO {
     private String link;
     private String picture;
     private String color;
-    private UserDTO user;
 
     public CollectionDTO() {}
 
-    public CollectionDTO(String name, String description, String link, String picture, String color, UserDTO user) {
+    public CollectionDTO(String name, String description, String link, String picture, String color) {
         this.name = name;
         this.description = description;
         this.link = link;
         this.picture = picture;
-        this.user = user;
         this.color = color;
     }
 
@@ -50,14 +56,6 @@ public class CollectionDTO {
 
     public void setPicture(String picture) {
         this.picture = picture;
-    }
-
-    public UserDTO getUser() {
-        return user;
-    }
-
-    public void setUser(UserDTO user) {
-        this.user = user;
     }
 
     public String getColor() {

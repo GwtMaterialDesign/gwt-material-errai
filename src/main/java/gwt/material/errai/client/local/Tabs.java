@@ -1,5 +1,6 @@
 package gwt.material.errai.client.local;
 
+import com.google.gwt.user.client.ui.Composite;
 import gwt.material.design.client.ui.MaterialLink;
 import gwt.material.design.client.ui.MaterialTab;
 import gwt.material.design.client.ui.MaterialTabItem;
@@ -7,7 +8,6 @@ import gwt.material.errai.shared.DataHelper;
 import gwt.material.errai.shared.Links;
 import org.jboss.errai.ui.shared.api.annotations.DataField;
 import org.jboss.errai.ui.shared.api.annotations.Templated;
-import com.google.gwt.user.client.ui.Composite;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;

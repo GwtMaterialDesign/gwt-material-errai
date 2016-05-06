@@ -1,23 +1,23 @@
 package gwt.material.errai.client.local;
 
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.RootPanel;
 import gwt.material.design.client.constants.ButtonType;
 import gwt.material.design.client.constants.InputType;
 import gwt.material.design.client.constants.WavesType;
 import gwt.material.design.client.ui.MaterialButton;
 import gwt.material.design.client.ui.MaterialTextBox;
+import org.jboss.errai.ui.nav.client.local.Navigation;
+import org.jboss.errai.ui.nav.client.local.Page;
 import org.jboss.errai.ui.shared.api.annotations.DataField;
 import org.jboss.errai.ui.shared.api.annotations.Templated;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
-@Templated
-public class SignupPage extends Composite {
 
-    @Inject
-    RootPanel root;
+@Templated
+@Page(path = "page")
+public class SignupPage extends Composite {
 
     @Inject
     @DataField("firstname")
@@ -50,6 +50,9 @@ public class SignupPage extends Composite {
     @DataField("login")
     MaterialButton btnLogin = new MaterialButton();
 
+    @Inject
+    Navigation navigation;
+
     @PostConstruct
     public void init() {
         txtFirstName.setPlaceholder("First Name");
@@ -79,7 +82,5 @@ public class SignupPage extends Composite {
         btnSignUp.setText("Sign Up");
         btnSignUp.setBackgroundColor("blue");
         btnSignUp.setWaves(WavesType.DEFAULT);
-
-        root.add(this);
     }
 }

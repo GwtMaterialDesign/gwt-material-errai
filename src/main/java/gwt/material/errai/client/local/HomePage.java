@@ -1,9 +1,8 @@
 package gwt.material.errai.client.local;
 
 import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.RootPanel;
 import gwt.material.design.client.ui.MaterialPanel;
-import gwt.material.design.client.ui.MaterialRow;
-import gwt.material.design.client.ui.MaterialToast;
 import org.jboss.errai.ioc.client.api.EntryPoint;
 import org.jboss.errai.ui.nav.client.local.DefaultPage;
 import org.jboss.errai.ui.nav.client.local.Page;
@@ -11,11 +10,11 @@ import org.jboss.errai.ui.shared.api.annotations.DataField;
 import org.jboss.errai.ui.shared.api.annotations.Templated;
 
 import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 import javax.inject.Inject;
 
 @EntryPoint
 @Templated
+@Page(path = "home", role = DefaultPage.class)
 public class HomePage extends Composite {
 
     @Inject
@@ -36,5 +35,6 @@ public class HomePage extends Composite {
         panel.add(header);
         panel.add(sideNav);
         panel.add(main);
+        RootPanel.get().add(panel);
     }
 }

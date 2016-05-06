@@ -4,6 +4,9 @@ import com.google.gwt.user.client.ui.Composite;
 import gwt.material.design.client.ui.MaterialContainer;
 import gwt.material.design.client.ui.MaterialLabel;
 import gwt.material.design.client.ui.MaterialRow;
+import gwt.material.errai.shared.CollectionDTO;
+import gwt.material.errai.shared.DataHelper;
+import org.jboss.errai.ui.client.widget.ListWidget;
 import org.jboss.errai.ui.nav.client.local.DefaultPage;
 import org.jboss.errai.ui.shared.api.annotations.DataField;
 import org.jboss.errai.ui.shared.api.annotations.Templated;
@@ -17,6 +20,10 @@ import javax.inject.Inject;
 public class Main extends Composite {
 
     @Inject
+    @DataField
+    ListWidget<CollectionDTO, CollectionCard> rowCards;
+
+    @Inject
     CollectionCard card;
 
     @Inject
@@ -25,19 +32,13 @@ public class Main extends Composite {
     @Inject
     CollectionCard card2;
 
-    protected MaterialRow row = new MaterialRow();
 
     @Inject
     @DataField("main")
     protected MaterialContainer container = new MaterialContainer();
 
-    protected MaterialLabel label = new MaterialLabel("Test");
-
     @PostConstruct
     public void init() {
-        container.add(row);
-        row.add(card);
-        row.add(card1);
-        row.add(card2);
+        rowCards.setItems(DataHelper.getAllCollections());
     }
 }
