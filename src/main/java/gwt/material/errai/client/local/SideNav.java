@@ -22,7 +22,7 @@ public class SideNav extends Composite {
     @PostConstruct
     public void init(){
         sideNav.setId("side-nav");
-        sideNav.setType(SideNavType.FLOAT);
+        sideNav.setType(SideNavType.CARD);
         sideNav.setCloseOnClick(true);
         for(Links l : DataHelper.getAllSideNavLinks()){
             MaterialLink link = new MaterialLink(l.getName());

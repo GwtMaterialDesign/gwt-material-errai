@@ -6,8 +6,8 @@
 
     <!--GWT Material-->
     <inherits name="gwt.material.design.GwtMaterialBasicWithJQuery"/>
-    <inherits name="gwt.material.design.themes.GwtMaterialThemeBlue"/>
-    <inherits name="gwt.material.design.addins.GWTMaterialAddins"/>
+    <inherits name="gwt.material.design.themes.GwtMaterialThemeBlue"/>    
+    <inherits name="gwt.material.design.addins.GwtMaterialAddins"/>
 
     <inherits name="com.google.gwt.user.User"/>
     <inherits name="org.jboss.errai.bus.ErraiBus"/>
