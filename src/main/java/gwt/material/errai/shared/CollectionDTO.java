@@ -3,6 +3,7 @@ package gwt.material.errai.shared;
 import org.jboss.errai.databinding.client.api.Bindable;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 
 @Bindable
@@ -10,6 +11,7 @@ import javax.persistence.NamedQuery;
 @NamedQuery(name = "allUsers", query = "SELECT s FROM CollectionDTO s ORDER BY s.name")
 public class CollectionDTO {
 
+    @Id
     private String name;
     private String description;
     private String link;

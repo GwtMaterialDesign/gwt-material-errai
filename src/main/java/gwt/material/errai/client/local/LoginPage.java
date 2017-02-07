@@ -25,7 +25,7 @@ import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 @Templated
-@Page(path = "login")
+@Page(path = "login", role = {org.jboss.errai.ui.nav.client.local.api.LoginPage.class, SecurityError.class} )
 public class LoginPage extends Composite {
 
 

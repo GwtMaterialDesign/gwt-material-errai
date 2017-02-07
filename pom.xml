@@ -70,7 +70,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
-        <version>2.8.0-beta1</version>
+        <version>2.8.0</version>
         <executions>
           <execution>
             <id>compile</id>
@@ -87,7 +87,7 @@
           <disableCastChecking>true</disableCastChecking>
           <runTarget>${errai.dev.context}/index.html</runTarget>
           <hostedWebapp>src/main/webapp</hostedWebapp>
-          <extraJvmArgs>-Xmx712m -XX:CompileThreshold=7000 -XX:MaxPermSize=128M -Derrai.jboss.home=${errai.jboss.home} -Derrai.dev.context=${errai.dev.context} -Derrai.jboss.javaagent.path=${settings.localRepository}/org/jboss/errai/errai-client-local-class-hider/${errai.version}/errai-client-local-class-hider-${errai.version}.jar</extraJvmArgs>
+          <extraJvmArgs>-Xmx712m -XX:CompileThreshold=7000 -Derrai.jboss.home=${errai.jboss.home} -Derrai.dev.context=${errai.dev.context} -Derrai.jboss.javaagent.path=${settings.localRepository}/org/jboss/errai/errai-client-local-class-hider/${errai.version}/errai-client-local-class-hider-${errai.version}.jar</extraJvmArgs>
         </configuration>
       </plugin>
     </plugins>
@@ -97,10 +97,12 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <errai.dev.context>${project.artifactId}</errai.dev.context>
     <errai.jboss.home>${project.build.directory}/wildfly-8.1.0.Final</errai.jboss.home>
-    <errai.version>4.0.0.Beta1</errai.version>
+    <errai.version>4.0.0.CR1</errai.version>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <gwt-material.version>1.5.0</gwt-material.version>
+    <gwt-material.version>1.6.2</gwt-material.version>
+    <gwt-material-themes.version>1.6.0</gwt-material-themes.version>
+    <gwt-material-addins.version>1.6.2</gwt-material-addins.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -123,12 +125,12 @@
     <dependency>
       <groupId>com.github.gwtmaterialdesign</groupId>
       <artifactId>gwt-material-themes</artifactId>
-      <version>1.5.0</version>
+      <version>${gwt-material-themes.version}</version>
     </dependency>
     <dependency>
       <groupId>com.github.gwtmaterialdesign</groupId>
       <artifactId>gwt-material-addins</artifactId>
-      <version>${gwt-material.version}</version>
+      <version>${gwt-material-addins.version}</version>
     </dependency>
 
     <dependency>

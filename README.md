@@ -4,8 +4,9 @@ Basic Errai application integrated with GMD
 
 # Information of the POC
 - Uses Java 8
-- Uses GWT 2.8-SNAPSHOT
-- Uses Errai 4.0.0-beta1
+- Uses GWT 2.8
+- Uses Errai 4.0.0-CR1
+- Uses Gwt Material Design 1.6.2
 - Shows how GMD works with Errai's DataBinding
 - HOW GMD Templating works with Errai
 - Supports Superdev mode for real time development

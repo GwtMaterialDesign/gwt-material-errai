@@ -14,7 +14,7 @@ import javax.inject.Inject;
 
 @EntryPoint
 @Templated
-@Page(path = "home", role = DefaultPage.class)
+@Page(path = "home" /*, role = DefaultPage.class*/ )
 public class HomePage extends Composite {
 
     @Inject

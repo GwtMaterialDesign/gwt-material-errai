@@ -16,7 +16,7 @@ import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 @Templated
-@Page(role = DefaultPage.class)
+@Page (role = DefaultPage.class)
 public class Main extends Composite {
 
     @Inject
